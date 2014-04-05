@@ -23,3 +23,17 @@
 	<script src="static/js/html5shiv.js"></script>
 	<script src="static/js/respond.min.js"></script>
 <![endif]-->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="static/js/jquery.queryloader2.min.js"></script>
+<script type="text/javascript">
+$(function(){
+	$("body").queryLoader2({
+        barColor: "#47A3DA",
+        backgroundColor: "#FFF",
+        percentage: true,
+        barHeight: 5,
+        completeAnimation: "grow",
+        minimumTime: 500
+    });	
+});
+</script>
