@@ -425,7 +425,7 @@ body {
 }
 #top-scroll-bar > a > i {
 	margin-top: 16px;
-	margin-left:-1px;
+	margin-left:-3px;
 	font-size: 24px;
 	color: rgba(255,255,255,.9);
 	display: inline-block;
